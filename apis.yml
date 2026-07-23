@@ -1,8 +1,24 @@
 aid: avalynpharma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avalynpharma.png
 name: Avalynpharma
-description: 'Avalynpharma is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Avalyn Pharma is a clinical-stage biotechnology company developing inhaled therapies for
+  rare and serious respiratory diseases, with a focus on idiopathic pulmonary fibrosis (IPF) and other
+  interstitial lung diseases. Its inhaled-delivery pipeline includes AP01 (inhaled pirfenidone), AP02
+  (inhaled nintedanib), and AP03 (a fixed-dose combination), aiming to deliver antifibrotic medication
+  directly to lung tissue to improve efficacy while reducing systemic side effects. Backed by Norwest
+  Venture Partners, the company is a therapeutics developer and publishes no public API or developer
+  surface; this profile is maintained in the API Evangelist network as a company record.'
 url: https://raw.githubusercontent.com/api-evangelist/avalynpharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Biotechnology
+- Pharmaceuticals
+- Clinical Stage
+- Respiratory
+- Pulmonary Fibrosis
+- Inhaled Therapeutics
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/avalynpharma-domain-security.yml
 - type: Website
   url: https://avalynpharma.com
+- type: Support
+  url: https://www.avalynpharma.com/contact/
+- type: PrivacyPolicy
+  url: https://www.avalynpharma.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.avalynpharma.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
